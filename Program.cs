@@ -24,7 +24,7 @@ namespace TwitterBot
 
         public class Handle
         {
-            public async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
+            public Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
             {
                 int ofsset = 0;
                 while (true)
