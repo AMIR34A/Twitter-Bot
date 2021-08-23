@@ -1,5 +1,5 @@
 # Twitter-Bot
-•You Get tweets in Telegram Bot <br />
+•You can get tweets in Telegram Bot <br />
 
 •My Telegram Bot : <br />
 >[Twitter Bot](https://telegram.me/TwitterRubot)
