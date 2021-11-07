@@ -10,7 +10,7 @@ namespace TwitterBot.Classes
     class Process
     {
         public string Country { get; set; }
-        TwitterClient userClient = new TwitterClient("zAra0T5tcxYqoZzGbzNn8zB1h", "2VUh6nBQO2OX7GHDMPLWaxmRziXrZyjaUWOn0COVtIP6MxoV8O", "1297246709253394432-HZd5WrvERipQyVNwcmsYS7kGrikeje", "FhNO7jinFZmHKPyJoRLnAsDXmK8QWK9VF6NwnSz38myXO");
+        TwitterClient userClient = new TwitterClient("Consumer Key", "Consumer Secret", "Access Token", "Access Secret");
 
         #region GetTweet
         public bool GetTweet(ref string screenName, ref string text, ref string name, string id, ref int likeCount, ref int retweetCount, Telegram.Bot.Types.Update update, Telegram.Bot.TelegramBotClient bot)
