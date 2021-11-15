@@ -44,12 +44,12 @@ namespace TwitterBot
                             if (up.CallbackQuery != null)
                             {
                                 handler.Handle += handler.ResponseToCallbackQuery;
-                                handler.Action(up, bot);
+                                handler.Run(up, bot);
                             }
                             else if (up.Message.Type == Telegram.Bot.Types.Enums.MessageType.Text)
                             {
                                 handler.Handle += handler.ResponseToText;
-                                handler.Action(up, bot);
+                                handler.Run(up, bot);
                             }
                         }
                     }
