@@ -12,7 +12,7 @@ namespace TwitterBot
 {
     class Program
     {
-        public static Telegram.Bot.TelegramBotClient bot = new Telegram.Bot.TelegramBotClient("1874331325:AAHMw8_QNcIIwI2mNvnY3bWiZ4U0PmWJJkk");
+        public static Telegram.Bot.TelegramBotClient bot = new Telegram.Bot.TelegramBotClient("Token");
         static HttpToSocks5Proxy proxy = new HttpToSocks5Proxy("HostName", 0, "Username", "Password");
 
         static void Main(string[] args)
